@@ -9,7 +9,6 @@ from pyspark.sql.types import ArrayType, FloatType, StringType
 # Constants
 S3_BUCKET = "movie-appeal-prediction-final"
 FLASK_EMBEDDING_ENDPOINT = "http://host.docker.internal:5000/embed"
-BEDROCK_REGION = "eu-central-1"
 
 # Initialize Spark
 spark = SparkSession.builder \
