@@ -4,3 +4,9 @@ Designed a two-phase ML pipeline using AWS (S3, Bedrock, Athena), Spark, Docker 
 ## Architecture
 
 ![architecture](movie_appeal_architecture.png)
+
+## Results
+
+Sample result:
+
+![sample_result](Results/sample-top-10-with-bedrock.png)
